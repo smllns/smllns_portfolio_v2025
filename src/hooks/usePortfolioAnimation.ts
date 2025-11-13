@@ -55,7 +55,7 @@ export const usePortfolioAnimation = ({
         rotation: 0,
         stagger: 0.05,
         duration: 0.8,
-        ease: 'elastic.out(1, 0.5)',
+        ease: 'power2.inOut',
       })
       .to(
         flowers,

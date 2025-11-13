@@ -109,13 +109,13 @@ export default function Footer({
         {/* Mobile: Full-width justified */}
         <div className='lg:hidden min-[320px]:flex flex-row w-screen justify-between'>
           <span
-            className={`px-3 py-1 rounded-2xl cursor-pointer text-xs sm:text-lg md:text-base  ${pillBg}`}
+            className={`px-3 py-1 rounded-2xl w-min cursor-pointer min-[320px]:text-xs sm:text-lg md:text-base  ${pillBg}`}
             onClick={footerItems.clickFunc}
           >
             {footerItems.siteName}
           </span>
           <span
-            className={`px-3 py-1 rounded-2xl text-xs sm:text-lg md:text-base  ${pillBg}`}
+            className={`px-3 py-1 rounded-2xl w-min min-[320px]:text-xs sm:text-lg md:text-base  ${pillBg}`}
           >
             by {footerItems.linkedIn}
           </span>
@@ -123,7 +123,7 @@ export default function Footer({
 
         {/* Copyright */}
         <span
-          className={`px-3 py-1 rounded-2xl text-[10px] md:text-base lg:text-base ${pillBg}`}
+          className={`px-3 py-1 rounded-2xl min-[320px]:text-xs sm:text-lg md:text-base ${pillBg}`}
         >
           © {currentYear} all rights reserved
         </span>
