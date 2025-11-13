@@ -29,7 +29,7 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: 'Smllns portfolio',
+  title: 'smllns portfolio 💚',
   description: 'Smllns Portfolio - React | Next.js | Tailwind CSS',
   metadataBase: new URL('https://smllns-portfolio.vercel.app'),
   openGraph: {

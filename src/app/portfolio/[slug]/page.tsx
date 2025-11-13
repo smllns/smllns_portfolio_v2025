@@ -12,7 +12,7 @@ import ProjectMore from '@/components/projectSections/ProjectMore';
 export default async function ProjectPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
   const project = portfolioItems.find((item) => item.slug === slug);
