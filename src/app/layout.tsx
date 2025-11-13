@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Holtwood_One_SC, Roboto } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
 import PageTransition from '@/components/PageTransition';
 import CustomCursor from '@/components/CustomCursor';
@@ -75,6 +76,7 @@ export default function RootLayout({
         {children}
         <PageTransition />
         <CustomCursor />
+        <Analytics />
       </body>
     </html>
   );
