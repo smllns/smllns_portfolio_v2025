@@ -1,4 +1,4 @@
-import { useLayoutEffect } from 'react';
+import { useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -15,7 +15,7 @@ export const useFooterAnimation = ({
   textRef,
   flowerRefs,
 }: UseFooterAnimationParams) => {
-  useLayoutEffect(() => {
+  useEffect(() => {
     const container = containerRef.current;
     const svg = svgRef.current;
     const text = textRef.current;

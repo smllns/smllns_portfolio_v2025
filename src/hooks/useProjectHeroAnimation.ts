@@ -1,4 +1,4 @@
-import { useLayoutEffect } from 'react';
+import { useEffect } from 'react';
 import { gsap } from 'gsap';
 import { SplitText } from 'gsap/SplitText';
 
@@ -13,7 +13,7 @@ export const useProjectHeroAnimation = ({
   btnRef,
   imageRef,
 }: AnimationRefs) => {
-  useLayoutEffect(() => {
+  useEffect(() => {
     const ctx = gsap.context(() => {
       const tl = gsap.timeline({ defaults: { ease: 'power4.out' } });
 

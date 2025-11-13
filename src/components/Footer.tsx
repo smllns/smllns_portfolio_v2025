@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useRef, useState, useLayoutEffect } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import Flower, { FlowerVariant } from './Flower';
 import {
   circlesDesktop,
@@ -24,7 +24,7 @@ export default function Footer({
   const isMobile = width < 640;
 
   // responsive logic
-  useLayoutEffect(() => {
+  useEffect(() => {
     const updateWidth = () => {
       if (containerRef.current) {
         setWidth(containerRef.current.getBoundingClientRect().width);
