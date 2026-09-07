@@ -5,7 +5,7 @@ import React from 'react';
 
 export const getTexts = (
   textLeftRef: React.RefObject<HTMLHeadingElement | null>,
-  textRightRef: React.RefObject<HTMLHeadingElement | null>
+  textRightRef: React.RefObject<HTMLHeadingElement | null>,
 ) => [
   { ref: textLeftRef, text: 'frontend', top: 'min-[320px]:top-5 md:top-15' },
   {
@@ -18,7 +18,7 @@ export const getTexts = (
 export const getFlowers = (
   flowerRef1: React.RefObject<HTMLDivElement | null>,
   flowerRef2: React.RefObject<HTMLDivElement | null>,
-  flowerRef3: React.RefObject<HTMLDivElement | null>
+  flowerRef3: React.RefObject<HTMLDivElement | null>,
 ) =>
   [
     { ref: flowerRef1, variant: 'one', size: 120, position: 'top-0 left-10' },
@@ -38,7 +38,7 @@ export const getFlowers = (
 
 export const getAboutItems = (
   highlightLocation: React.RefObject<HighlighterRef | null>,
-  highlightTech: React.RefObject<HighlighterRef | null>
+  highlightTech: React.RefObject<HighlighterRef | null>,
 ) => [
   {
     label: 'Name:',
@@ -56,7 +56,7 @@ export const getAboutItems = (
     label: 'Experience:',
     value: (
       <>
-        Software engineer with <span className='font-holtwood'>3+</span> years
+        Software engineer with <span className='font-holtwood'>4+</span> years
         of experience (crypto startups, design agencies, iGaming companies)
       </>
     ),
@@ -73,7 +73,7 @@ export const getAboutItems = (
 
 export const getHobbies = (
   highlightReading: React.RefObject<HighlighterRef | null>,
-  highlightMovies: React.RefObject<HighlighterRef | null>
+  highlightMovies: React.RefObject<HighlighterRef | null>,
 ) => [
   {
     label: 'Hobbies:',
