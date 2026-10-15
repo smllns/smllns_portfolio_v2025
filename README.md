@@ -55,6 +55,7 @@ This portfolio serves as a platform to introduce myself and display some of my m
 Here are the main projects featured in the portfolio:
 
 - **Lunera:** A design agency website where I handled full frontend development, animations, and smooth transitions to showcase services and projects.
+- **BlobUi** An open-source React component library with a custom CLI and registry, allowing developers to install, own, and fully customize accessible UI components directly in their projects.
 - **Film Club:** Personal movie showcase website featuring curated collections and smooth browsing experience.
 - **MoodFlow:** Mood tracking app with interactive charts and analytics to visualize daily emotions.
 - **Crumb Bakery:** Bakery website with colorful design and scroll-based animations.
