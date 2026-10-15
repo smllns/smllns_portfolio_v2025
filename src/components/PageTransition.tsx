@@ -8,6 +8,7 @@ import { gsap } from 'gsap';
 // 🎨 color map for routes
 const routeColors: Record<string, string> = {
   '/portfolio/lunera': '#1a00c6',
+  '/portfolio/blobui': '#8cd573',
   '/portfolio/film-club': '#8B5CF6',
   '/portfolio/moodflow': '#0be9f5',
   '/portfolio/crumb-bakery': '#016630',
@@ -54,7 +55,7 @@ export default function PageTransition() {
         stagger: 0.04,
       });
     },
-    [router]
+    [router],
   );
 
   // exporting global function

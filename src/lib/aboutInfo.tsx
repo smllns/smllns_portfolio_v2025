@@ -57,7 +57,7 @@ export const getAboutItems = (
     value: (
       <>
         Software engineer with <span className='font-holtwood'>4+</span> years
-        of experience (crypto startups, design agencies, iGaming companies)
+        of experience in diverse fields
       </>
     ),
   },

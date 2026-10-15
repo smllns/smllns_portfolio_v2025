@@ -7,11 +7,25 @@ export const portfolioItems = [
     description: 'Design agency website',
   },
   {
+    link: '/portfolio/blobui',
+    text: 'BlobUI',
+    image:
+      'https://github.com/smllns/smllns_portfolio/blob/main/public/blobui1.png?raw=true',
+    description: 'Component library',
+  },
+  {
     link: '/portfolio/film-club',
     text: 'Film Club',
     image:
       'https://github.com/smllns/smllns_portfolio/blob/main/public/lib.png?raw=true',
     description: 'Personal movie showcase website',
+  },
+  {
+    link: '/portfolio/fe-interview-hub',
+    text: 'FE Interview Hub',
+    image:
+      'https://github.com/smllns/FE-Interview-Hub/blob/main/public/questions.png?raw=true',
+    description: 'FE interview preparation platform',
   },
   {
     link: '/portfolio/moodflow',
@@ -25,12 +39,5 @@ export const portfolioItems = [
     text: 'Crumb Bakery',
     image: '/crumb.png',
     description: 'Bakery website',
-  },
-  {
-    link: '/portfolio/fe-interview-hub',
-    text: 'FE Interview Hub',
-    image:
-      'https://github.com/smllns/FE-Interview-Hub/blob/main/public/questions.png?raw=true',
-    description: 'FE interview preparation platform',
   },
 ];

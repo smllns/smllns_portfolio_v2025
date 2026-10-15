@@ -66,7 +66,7 @@ const PortfolioSection = ({
       ))}
 
       {/* FlowingMenu with initial offset */}
-      <div className='h-[50vh] translate-y-48 opacity-0' ref={menuRef}>
+      <div className='h-[65vh] translate-y-48 opacity-0' ref={menuRef}>
         <FlowingMenu />
       </div>
     </div>

@@ -7,8 +7,8 @@ export const portfolioItems = [
     description:
       'Lunera is a sleek and minimalistic website for a creative design agency. Built with a focus on visual storytelling and smooth motion, it combines elegant typography, dynamic layouts, and seamless transitions to showcase the agency’s portfolio in an immersive way.',
     link: 'https://lunera.studio/',
-    more: ['/portfolio/film-club', '/portfolio/moodflow'],
-    moreImgs: ['/filmabout2.png', '/moodmain2.png'],
+    more: ['/portfolio/film-club', '/portfolio/blobui'],
+    moreImgs: ['/filmabout2.png', '/blobMain.png'],
 
     features: [
       {
@@ -134,8 +134,8 @@ export const portfolioItems = [
     description:
       'Film Club is a personal movie collection site where users can explore curated film lists with striking visuals. Designed for film enthusiasts, it offers interactive transitions, poster galleries, and a cinematic atmosphere inspired by classic and modern cinema.',
     link: 'https://smllns-film-club.vercel.app/',
-    more: ['/portfolio/lunera', '/portfolio/moodflow'],
-    moreImgs: ['/luneramain2.png', '/moodmain2.png'],
+    more: ['/portfolio/lunera', '/portfolio/blobui'],
+    moreImgs: ['/luneramain2.png', '/blobMain.png'],
     features: [
       {
         title: 'Visual Experience & Intro',
@@ -256,8 +256,8 @@ export const portfolioItems = [
     text: 'MoodFlow',
     image: '/moodmain2.png',
     aboutPics: ['/moodabout2.png', '/moodabout1.png', '/moodabout3.png'],
-    more: ['/portfolio/lunera', '/portfolio/film-club'],
-    moreImgs: ['/luneramain2.png', '/filmabout2.png'],
+    more: ['/portfolio/lunera', '/portfolio/blobui'],
+    moreImgs: ['/luneramain2.png', '/blobMain.png'],
 
     description:
       'MoodFlow is a simple and beautiful mood tracking web app designed to help users visualize emotional patterns over time. It features a clean, soft color palette and intuitive UX that make self-reflection both calm and engaging.',
@@ -392,8 +392,8 @@ export const portfolioItems = [
     text: 'Crumb Bakery',
     image: '/crumb.png',
     aboutPics: ['/crumbabout1.png', '/crumbabout2.png', '/crumbabout3.png'],
-    more: ['/portfolio/lunera', '/portfolio/film-club'],
-    moreImgs: ['/luneramain2.png', '/filmabout2.png'],
+    more: ['/portfolio/lunera', '/portfolio/blobui'],
+    moreImgs: ['/luneramain2.png', '/blobMain.png'],
 
     description:
       'Crumb Bakery is a warm and inviting website for a local artisan bakery. It highlights handcrafted bread through soft textures, cozy tones, and playful animations, blending modern web aesthetics with a sense of homemade comfort.',
@@ -491,8 +491,8 @@ export const portfolioItems = [
     description:
       'FE Interview Hub is a resource platform for frontend developers preparing for interviews. It contains a curated collection of questions and answers, organized by topics, to help developers get ready for technical interviews.',
     link: 'https://fe-interview-hub.vercel.app/',
-    more: ['/portfolio/lunera', '/portfolio/film-club'],
-    moreImgs: ['/luneramain2.png', '/filmabout2.png'],
+    more: ['/portfolio/lunera', '/portfolio/blobui'],
+    moreImgs: ['/luneramain2.png', '/blobMain.png'],
 
     features: [
       {
@@ -611,6 +611,132 @@ export const portfolioItems = [
         title: 'UI Inspirations',
         description:
           'Design ideas and components adapted from React Bits, Magic UI, and UI Layouts to enhance usability and aesthetics.',
+      },
+    ],
+  },
+  {
+    slug: 'blobui',
+    text: 'BlobUI',
+    image: '/blobMain.png',
+    aboutPics: ['/blobabout1.png', '/blobabout2.png', '/blobabout3.png'],
+    description:
+      'BlobUI is a modern and visually engaging component library designed for developers seeking a unique and playful UI experience. It features a collection of reusable components with smooth animations and customizable styles.',
+    link: 'https://blobui-eta.vercel.app',
+    more: ['/portfolio/lunera', '/portfolio/film-club'],
+    moreImgs: ['/luneramain2.png', '/filmabout2.png'],
+
+    features: [
+      {
+        title: 'Copy-Paste Component Architecture',
+        description:
+          'Install individual React components directly into your project instead of relying on a pre-built package. You own the source code and can modify, extend, or customize every component.',
+      },
+      {
+        title: 'Custom CLI & Component Registry',
+        description:
+          'Manage your UI components from the command line — initialize your project, add or remove components, inspect component details, and check your setup with built-in diagnostics.',
+      },
+      {
+        title: 'Flexible Design Token System',
+        description:
+          'A three-layer design token architecture separates palette primitives, semantic tokens, and Tailwind utilities, keeping components theme-independent and easy to customize.',
+      },
+      {
+        title: 'Dynamic Theming & Accent Colors',
+        description:
+          'Switch between light and dark themes and choose from four interchangeable accent palettes. Semantic tokens keep colors consistent across components without rewriting their styles.',
+      },
+      {
+        title: 'Accessible Components & Primitives',
+        description:
+          'Build accessible interfaces with reusable React components powered by Radix UI primitives, with support for keyboard interaction and consistent interaction patterns.',
+      },
+      {
+        title: 'TypeScript-First Components',
+        description:
+          'Built with React and TypeScript, with component APIs, types, and styles organized into focused files for better readability, maintainability, and customization.',
+      },
+      {
+        title: 'Built-in Animations',
+        description:
+          'Bring interfaces to life with integrated GSAP animations and reusable animation hooks, without having to build every interaction from scratch.',
+      },
+      {
+        title: 'Automatic Dependency Management',
+        description:
+          'The CLI automatically installs required npm packages, shared utilities, hooks, and registry dependencies, so each component comes with the files it needs to work.',
+      },
+      {
+        title: 'Developer-Friendly Tooling',
+        description:
+          'Configure project aliases, preview component metadata, safely handle existing files, and validate your project setup with commands designed to streamline development.',
+      },
+    ],
+    technologies: [
+      {
+        title: 'React 19 + TypeScript',
+        description:
+          'Core technologies for building reusable, type-safe UI components with clearly defined APIs and maintainable component architecture.',
+      },
+      {
+        title: 'Tailwind CSS 4',
+        description:
+          'Utility-first styling powered by a custom semantic design token system, enabling consistent styling, flexible theming, and easy customization.',
+      },
+      {
+        title: 'Custom CLI (Node.js + TypeScript)',
+        description:
+          'A command-line tool built from scratch to initialize projects, install and remove components, manage dependencies, inspect component metadata, and diagnose project configuration.',
+      },
+      {
+        title: 'Component Registry',
+        description:
+          'A registry-based distribution system that stores component source files, metadata, dependencies, and installation requirements, allowing developers to install only the components they need.',
+      },
+      {
+        title: 'Radix UI',
+        description:
+          'Accessible, unstyled primitives used to build interactive components such as dialogs, dropdown menus, tooltips, accordions, and popovers.',
+      },
+      {
+        title: 'GSAP',
+        description:
+          'Animation library used to create smooth, customizable motion and interactive component transitions.',
+      },
+      {
+        title: 'Design Tokens & Dynamic Theming',
+        description:
+          'A three-layer token architecture separating palette primitives, semantic tokens, and Tailwind utilities, with support for light and dark themes and interchangeable accent palettes.',
+      },
+      {
+        title: 'CVA, clsx + tailwind-merge',
+        description:
+          'Utilities for managing component variants, composing conditional class names, and resolving conflicting Tailwind CSS classes.',
+      },
+      {
+        title: 'Commander, Prompts + Execa',
+        description:
+          'CLI tooling for defining commands and options, creating interactive terminal prompts, and executing system processes.',
+      },
+      {
+        title: 'JSZip',
+        description:
+          'Generates ZIP archives from component source files, allowing multiple files to be bundled together for convenient downloading and distribution.',
+      },
+      {
+        title: 'Vite',
+        description:
+          'Development server and build tooling for the React-based documentation and component playground.',
+      },
+      {
+        title: 'fast-levenshtein',
+        description:
+          'Enables typo-tolerant command suggestions by calculating the similarity between strings, helping developers find the right component or command when they make a typo.',
+      },
+      {
+        title: 'Picocolors',
+        description:
+          'Adds lightweight, colored terminal output to the CLI, making command results, status messages, and error feedback easier to scan and understand.',
       },
     ],
   },
