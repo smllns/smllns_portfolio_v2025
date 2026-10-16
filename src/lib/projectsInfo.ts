@@ -27,12 +27,12 @@ export const portfolioItems = [
           'Supports multiple visual themes for a stylish, brand-aligned look and feel across the site.',
       },
       {
-        title: 'Preloader & Menu',
+        title: 'Preloader + Menu',
         description:
           'Includes a sleek preloader and interactive menu for smooth transitions between pages and sections.',
       },
       {
-        title: 'Portfolio & Project Cards',
+        title: 'Portfolio + Project Cards',
         description:
           'Displays work examples in interactive, pop-up cards with hover effects and smooth entrance animations.',
       },
@@ -138,7 +138,7 @@ export const portfolioItems = [
     moreImgs: ['/luneramain2.png', '/blobMain.png'],
     features: [
       {
-        title: 'Visual Experience & Intro',
+        title: 'Visual Experience + Intro',
         description:
           'The site opens with a visually striking introduction, combining experimental layouts, smooth animations to create a unique cinematic browsing experience.',
       },
@@ -294,7 +294,7 @@ export const portfolioItems = [
           'Update your profile details, including name, email, username, and password. Easily delete your account or clear all mood data directly from the app.',
       },
       {
-        title: 'Articles & Resources',
+        title: 'Articles + Resources',
         description:
           'Read mood-related articles and resources to learn more about emotional well-being and mental health management.',
       },
@@ -632,7 +632,7 @@ export const portfolioItems = [
           'Install individual React components directly into your project instead of relying on a pre-built package. You own the source code and can modify, extend, or customize every component.',
       },
       {
-        title: 'Custom CLI & Component Registry',
+        title: 'Custom CLI + Component Registry',
         description:
           'Manage your UI components from the command line — initialize your project, add or remove components, inspect component details, and check your setup with built-in diagnostics.',
       },
@@ -642,12 +642,12 @@ export const portfolioItems = [
           'A three-layer design token architecture separates palette primitives, semantic tokens, and Tailwind utilities, keeping components theme-independent and easy to customize.',
       },
       {
-        title: 'Dynamic Theming & Accent Colors',
+        title: 'Dynamic Theming + Accent Colors',
         description:
           'Switch between light and dark themes and choose from four interchangeable accent palettes. Semantic tokens keep colors consistent across components without rewriting their styles.',
       },
       {
-        title: 'Accessible Components & Primitives',
+        title: 'Accessible Components + Primitives',
         description:
           'Build accessible interfaces with reusable React components powered by Radix UI primitives, with support for keyboard interaction and consistent interaction patterns.',
       },
